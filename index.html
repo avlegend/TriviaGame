@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div id="main-Container" class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Totally Tivial Trivia</h1>
+
+            <!-- The timer will go here -->
+            <h2>Time Remaining: <span id="time-remaining"></span></h2>
+        </div>
+    </div>
+
+
+    <button id="start" class="btn btn-primary" type="submit">Start Game</button>
+    <div class="row">
+        <div class="text-center" id="listQ">
+        </div>
+    </div>
+
+    <div id="quiz"></div>
+
+
+
+    <!--The Questions will go here-->
+    <h4>Which of these in NOT a name of one of the Spice Girls?</h4>
+    <form>
+        <!--These should be buttons-->
+        <input id="foo" type="radio" name="choice" value="Sporty">Sporty<br>
+        <input type="radio" name="choice1" value="Baby">Baby<br>
+        <input type="radio" name="choice2" value="Scary">Scary<br>
+        <input type="radio" name="choice3" value="Pineapple">Pineapple<br>
+    </form>
+
+
+
+
+    <h4>What was the first president of the United States of America?</h4>
+    <form>
+        <input type="radio" name="choice" value="Nixon">Nixon<br>
+        <input type="radio" name="choice1" value="Washington">Washington<br>
+        <input type="radio" name="choice2" value="Kennedy">Kennedy<br>
+        <input type="radio" name="choice3" value="Trump">Trump<br>
+    </form>
+
+    <h4>Who is Spongbobs best friend?</h4>
+    <form>
+        <input type="radio" name="choice" value="Sandy">Sandy<br>
+        <input type="radio" name="choice1" value="Squidward">Squidward<br>
+        <input type="radio" name="choice2" value="Pearl">Pearl<br>
+        <input type="radio" name="choice3" value="Patrick">Patrick<br>
+    </form>
+    <button id="submit">Submit Quiz</button>
+    <div id="results"></div>
+
+    </div>
+
+</body>
+
+</html>

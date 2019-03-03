@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    color: yellow;
+   
+}
+
+input{
+    text: red;
+    color:red;
+}
+br{
+    text: red
+}
+input{
+    text: red
+}
+form{
+    text-emphasis-color: red;
+}
+h1,
+h2{
+    color: red
+}
+h4{
+    color: red;
+}
+button{
+    float: center;
+    margin-left: 300px;
+}
+#foo{
+    color: red
+}
+#main-Container {
+
+}
